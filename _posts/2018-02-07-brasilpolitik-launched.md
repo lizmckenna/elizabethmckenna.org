@@ -11,6 +11,9 @@ Well. Finally got around to putting this website together.
 <p> Anyone who tells you that they know how this election is going to turn out is...probably lying.
 <br>
 <img src="lizmckenna.github.io/images/newplot.png" alt="hi" class="inline"/>
+  Inline-style: 
+![alt text](https://github.com/lizmckenna/lizmckenna.github.io/images/newplot.png "Logo Title Text 1")
+
 <br>
 <br>
 <p></p>
