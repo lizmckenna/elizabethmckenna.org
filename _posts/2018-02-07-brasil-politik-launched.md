@@ -1,13 +1,13 @@
 ---
 layout: post
-title: "First post: a box plot"
+title: "The state of the race"
 date: 2018-02-07
 ---
 
-Well. Finally got around to putting this old website together. Neat thing about it - powered by [Jekyll](http://jekyllrb.com) and I can use Markdown to author my posts. It actually is a lot easier than I thought it was going to be.
-<center>
+Well. Finally got around to putting this old website together.
 <img src="images/newplot.png" alt="hi" class="inline"/>
-	</center>
+
+<p></p>
 Anyone who tells you that they know how the 2018 presidential election in Brazil is going to turn out is...probably lying.*
 
 What you're looking at above is the distribution of polling percentages by candidate. With help from my awesome RA Paula Barcelos, compiled the microdata from all major polling firms (Datafolha, Ibope, Paraná Pesquisas, Poder360, CNT+MDA, and Vox Populi). The date range spans July 2015 to January 2018 (to be updated continuously this year).
