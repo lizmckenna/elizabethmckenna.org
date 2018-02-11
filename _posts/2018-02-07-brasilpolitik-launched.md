@@ -6,13 +6,11 @@ date: 2018-02-07
 
 Well. Finally got around to putting this website together.
 
-<h1> The state of the race</h1>
+<h2> The state of the race</h2>
 
 <p> Anyone who tells you that they know how this election is going to turn out is...probably lying.
 <br>
-<img src="images/newplot.png" alt="hi" class="inline"/>
-	</center>
-
+<img src="lizmckenna.github.io/images/newplot.png" alt="hi" class="inline"/>
 <br>
 <br>
 <p></p>
