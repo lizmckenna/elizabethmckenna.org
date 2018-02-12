@@ -3,7 +3,7 @@ layout: post
 title: "Ópio do povo, narcotráfico da mídia"
 date: 2018-02-10
 ---
-<p><font color="#787878">Futebol [pesquisas eleitorais] é [são] o ópio do povo, o narcotráfico da mídica. <br>
+<p><font color="#787878">Futebol [pesquisas eleitorais] é [são] o ópio do povo, o narcotráfico da mídia. <br>
 		<br>
 		—Millôr Fernandes</p>
 		</font>
