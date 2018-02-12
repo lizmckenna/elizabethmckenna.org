@@ -4,11 +4,9 @@ title: "Muito jogo pela frente"
 date: 2018-02-07
 ---
 
-Well. Finally got around to putting this website together.
-
 <h2> The state of the race</h2>
 
-<p> Anyone who tells you that they know how the 2018 presidential election in Brazil is going to turn out is...probably lying.* </p>
+<p> Well. Finally got around to putting this website together to chronicle what promises to be a crazy year. Anyone who tells you that they know how the 2018 presidential election in Brazil is going to turn out is...probably lying.* </p>
 <br>
 ![alt text](https://lizmckenna.github.io/images/newplot.png "Logo Title Text 1")
 <br>
