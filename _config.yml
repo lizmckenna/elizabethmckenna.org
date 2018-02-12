@@ -1,3 +1,4 @@
 name: Liz McKenna
 markdown: kramdown
 permalink: /blog/:year/:month/:day/:title
+avatar: https://raw.githubusercontent.com/barryclark/jekyll-now/master/images/jekyll-logo.png
