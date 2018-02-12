@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Ópio do povo, narcotráfico da mídia"
-date: 2018-02-07
+date: 2018-02-10
 ---
 
 <h2> Trends to date, July 2015 to January 2018 </h2>
