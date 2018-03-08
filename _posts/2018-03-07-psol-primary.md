@@ -12,7 +12,9 @@ date: 2018-03-07
  
 <p> I wanted to see what, if any, patterns might underlie these <i>rachas internas</i> and the articulation processes that result, so I spent this afternoon scraping the party's five <a href="http://www.psol50.org.br/pre-candidaturas-a-presidencia/">pre-candidate statements</a>. Below is a network map of the endorsements embedded in the candidate's platforms:
 <p>
- <img src="{{ site.baseurl }}/images/180307_psol_network.png">
-<p> Each grey node represents 100 grassroots supporter signatures in support of a candidacy. (Boulos had appx. 9,062 while the second-highest grassroots signature gatherer was Sônia, with just over 2,000.)<p> 
+ ![My helpful screenshot]({{ "/images/180307_psol_network.png" | https://github.com/lizmckenna/lizmckenna.github.io/blob/master/images/180307_psol_network.png }})
+<p> 
+ 
+ Each grey node represents 100 grassroots supporter signatures in support of a candidacy. (Boulos had appx. 9,062 while the second-highest grassroots signature gatherer was Sônia, with just over 2,000.)<p> 
  
 <p> What's most interesting to me about this is the ratio of grassroots supporters to party leaders and party intellectuals. Plínio Jr. (whose dad ran in 2010) has almost twice as many party leaders and intellectual endorsements as does Boulos (23 vs. 12). But those endorsements did not seem to translate into a groundswell of grassroots support. The critique of Boulos is that he was smuggled in as a "satellite candidacy," bypassing the party structure. But he has a base—and not just any base, one that is organized and committed. Anyone who has been studying the MTST/Boulos qualitatively over the past few years will tell you that the base preceeded the higher-profile political endorsements from PSOL's six congressional reps. An organized grassroots base is a form of political currency. Ideological purism...less so.<p>
