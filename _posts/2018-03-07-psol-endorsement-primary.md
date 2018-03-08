@@ -3,7 +3,7 @@ layout: post
 title: "PSOL's primary"
 date: 2018-03-07
 ---
-## PSOL's Endorsement Primary
+<h2> PSOL's Endorsement Primary</h2>
 
 <p> This Monday, March 5, Guilherme Boulos of the MTST formally registered as an affiliate of Brazil's socialist party, PSOL. His acclamation counted on none other than Lula's support of his increasingly likely candidacy (in the face of Lula's increasingly unlikely one). PSOL's electoral college meets on the 10th, and Boulos is almost certainly going to be anointed the party's official candidate.</p> 
 
