@@ -1,5 +1,3 @@
 name: Liz McKenna
 markdown: kramdown
 permalink: /blog/:year/:month/:day/:title
-url: "https://lizmckenna.github.io"
-baseurl: /lizmckenna
