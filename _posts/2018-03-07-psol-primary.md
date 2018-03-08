@@ -11,7 +11,7 @@ date: 2018-03-07
 <p> But, as anyone who has read Sabrina Fernandes' <a href="http://www.ihu.unisinos.br/159-noticias/entrevistas/569025-a-fragmentacao-da-esquerda-a-crise-da-praxis-e-a-melancolia-entrevista-especial-com-sabrina-fernandes">brilliant work</a> on the fragemented and "melancholic" Brazilian Left might have guessed, Boulos is not the consensus candidate among the 40+ internal tendencies of the party. In fact, some of the party's heavyweights are downright pissed. Babá, the founder of PSOL, <a href="https://www.facebook.com/babapsol/">said</a> said that "a Lulist candidacy is an affront to our history" [the party cleaved off from the PT during Lula's first term]. During tonight's debate, another pre-candidate, Plínio Jr., said, "Boulos is welcome to our party, but not under Lula's thumb."
  
 <p> I wanted to see what, if any, patterns might help us understand these internal <i>rachas internas</i> and articulation processes, so I spent this afternoon scraping the party's five <a href="http://www.psol50.org.br/pre-candidaturas-a-presidencia/">pre-candidate statements</a>. Their platforms include a list of endorsements. Below is a network map of what I found:
- <br>
+ <p>
  ![alt text](https://lizmckenna.github.io/images/180307_psol_network.png "PSOL Primary")
  <br>
 <p> Each grey node represents 100 grassroots supporter signatures in support of a candidacy. (Boulos had appx. 9,062 while the second-highest grassroots signature gatherer was Sônia, with just over 2,000.)<p> 
