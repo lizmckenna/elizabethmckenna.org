@@ -12,7 +12,7 @@ date: 2018-03-07
 <p>I wanted to see what, if any, patterns might underlie these <i>rachas internos</i> and the articulation processes that follow, so I spent this afternoon scraping endorsement data from the party's five <a href="http://www.psol50.org.br/pre-candidaturas-a-presidencia/">pre-candidate statements</a>. Below is a network map of the signatures submitted with their formal announcements:</p>
 <br>
 <br>
- ![alt text](https://lizmckenna.github.io/images/180307_psol_eng.png "Logo Title Text 1")
+ ![alt text](https://lizmckenna.github.io/images/180307_psol_english.png "Logo Title Text 1")
 <br>
 <p>Each gray node represents 100 grassroots signatures. All other supporter categories represent one unit, so dark blue is a single party current, each forest green node is one congressperson, etc. Boulos had appx. 9,062 grassroots supporter signatures while the second-highest grassroots signature gatherer—as of tonight, his likely VP—was Sônia, with just over 2,000.</p> 
  
