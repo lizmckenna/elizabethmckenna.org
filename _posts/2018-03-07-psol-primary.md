@@ -12,7 +12,7 @@ date: 2018-03-07
  
 <p> I wanted to see what, if any, patterns might help us understand these internal <i>rachas internas</i> and articulation processes, so I spent this afternoon scraping the party's five <a href="http://www.psol50.org.br/pre-candidaturas-a-presidencia/">pre-candidate statements</a>. Below is a network map of the endorsements embedded in the candidate's platforms:
  <p>
- ![alt text](https://lizmckenna.github.io/images/180307_psol_network.png "PSOL Primary")
+ ![alt text](https://lizmckenna.github.io/images/180307_psol_network.png)
  <br>
   <br>
  ![alt text](https://lizmckenna.github.io/images/180304_scatter.png "Logo Title Text 1")
