@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Presidential vote totals and win margins"
-date: 2018-03-07
+date: 2018-03-13
 ---
 <h2>Historical Vote Totals and Win Margins</h2>
 
