@@ -11,5 +11,7 @@ date: 2018-03-07
   ** = Indicates winner in the first round
 <br>
 <br>
- ![alt text](https://lizmckenna.github.io/images/presidential_historical_win_margins.png "Historicals")
+ <center>
+<img src="/images/presidential_historical_win_margins.png" alt="HTML5 Icon" style="width:800px;height:500px;">
+	</center>
 <br>
