@@ -14,6 +14,6 @@ date: 2018-03-13
 <br>
 <br>
  <center>
-<img src="/images/presidential_historical_win_margins.png" alt="HTML5 Icon" style="width:400px;height:500px;">
+<img src="/images/presidential_historical_win_margins.png" alt="HTML5 Icon" style="width:400px;height:600px;">
 	</center>
 <br>
