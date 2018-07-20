@@ -11,6 +11,6 @@ date: 2018-07-19
 <br>
 <br>
  <center>
-<img src="/images/2018-07-19_party_sankey.png" alt="HTML5 Icon" style="width:400px;height:600px;">
+<img src="/images/2018-07-19_party_sankey.png" alt="HTML5 Icon" style="width:600px;height:400px;">
 	</center>
 <br>
