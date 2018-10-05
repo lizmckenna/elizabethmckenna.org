@@ -12,3 +12,12 @@ date: 2018-10-05
 <p> Elections are rare events. We can't infer anything with confidence with only seven observations. We can say, however, that since 1989, no right or center-right candidate has underperformed their final poll numbers in the first round of voting.
 </p>
 <br>
+ <center>
+<img src="/images/poll-variance-1-turno.png" alt="HTML5 Icon" style="width:900px;height:650px;">
+	</center>
+<br>
+ <center>
+<img src="/images/poll-variance-data.png" alt="HTML5 Icon" style="width:900px;height:650px;">
+	</center>
+<br>
+
