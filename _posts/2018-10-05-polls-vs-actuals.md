@@ -13,7 +13,7 @@ date: 2018-10-05
 </p>
 <br>
  <center>
-<img src="/images/poll-variance-1-turno.png" alt="HTML5 Icon" style="width:900px;height:650px;">
+<img src="/images/poll-variance-1-turno-v2.png" alt="HTML5 Icon" style="width:900px;height:650px;">
 	</center>
 <br>
  <center>
