@@ -17,7 +17,7 @@ date: 2018-10-05
 	</center>
 <br>
  <center>
-<img src="/images/poll-variance-data.png" alt="HTML5 Icon" style="width:900px;height:650px;">
+<img src="/images/poll-variance-tables-v2.png" alt="HTML5 Icon" style="width:900px;height:650px;">
 	</center>
 <br>
 
