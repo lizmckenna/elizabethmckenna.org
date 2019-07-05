@@ -2,4 +2,4 @@ name: Liz McKenna
 markdown: kramdown
 permalink: /blog/:year/:month/:day/:title
 
-theme: minima
+remote_theme: jdh8/sweet-16
