@@ -28,19 +28,11 @@
   }
 }
 
-.nav {
-   background-color: #000000;
-}
-
-.nav a {
-   color: #02818a;
-}
-
 .site-nav {
   position: absolute;
-  top: 9px;
+  top: 20px;
   right: $spacing-unit / 2;
-  background-color: #000000;
+  background-color: #FF7433;
   border: 1px solid $grey-color-light;
   border-radius: 5px;
   text-align: right;
