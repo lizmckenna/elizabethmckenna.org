@@ -9,7 +9,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&family=Instrument+Sans:wght@400;500;600&family=Bricolage+Grotesque:opsz,wght@12..96,700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="styles.css?v=7">
+<link rel="stylesheet" href="styles.css?v=8">
 </head>
 <body>
 <div class="shell">
@@ -18,7 +18,8 @@
   <div class="main">
     <header class="head">
       <div><a href="index.html" style="color:inherit;border:0">Elizabeth McKenna</a></div>
-      <nav aria-label="Primary">
+      <button class="nav-toggle" aria-expanded="false" aria-controls="primary-nav" aria-label="Menu"><span></span><span></span><span></span></button>
+      <nav id="primary-nav" aria-label="Primary">
         <a href="books.html">Books</a>
         <a href="research.html">Research</a>
         <a href="teaching.html">Teaching</a>
@@ -33,6 +34,7 @@
 
     <section aria-label="Press and writing">
       <div class="press-list">
+        <div class="press-item"><div class="year">Sep 2026</div><div class="cite">Nathan Fikadu. &ldquo;<a href="https://dailycampus.com/2026/09/14/activism-for-more-not-less/">Activism for More, Not Less.</a>&rdquo; <em>The Daily Campus</em>.</div></div>
         <div class="press-item"><div class="year">Jun 2026</div><div class="cite">Elizabeth McKenna. &ldquo;<a href="https://www.bostonglobe.com/2026/06/19/opinion/ohio-civic-collaborative-federal-crackdown/">Protest Doesn&rsquo;t Scare Trump. Organizing Does.</a>&rdquo; <em>The Boston Globe</em>.</div></div>
         <div class="press-item"><div class="year">Feb 2026</div><div class="cite">Charles Duhigg. &ldquo;<a href="https://www.newyorker.com/magazine/2026/02/02/what-maga-can-teach-democrats-about-organizing-and-infighting">What MAGA Can Teach Democrats About Organizing.</a>&rdquo; <em>The New Yorker</em>.</div></div>
         <div class="press-item"><div class="year">Feb 2026</div><div class="cite">Micah L. Sifry. &ldquo;<a href="https://theconnector.substack.com/p/when-memory-serves">When Memory Serves.</a>&rdquo; <em>The Connector</em>.</div></div>
@@ -63,5 +65,6 @@
     </section>
   </div>
 </div>
+<script>document.querySelector(".nav-toggle").addEventListener("click",function(){var e=this.getAttribute("aria-expanded")==="true";this.setAttribute("aria-expanded",String(!e));document.getElementById("primary-nav").classList.toggle("open")});</script>
 </body>
 </html>
