@@ -3,7 +3,7 @@
   --paper:#f3f3ef; --ink:#161d1a; --mute:#4a534e;
   --leaf:#1f6b3a; --teal:#12908e; --papaya:#f0742a; --cobalt:#1d4fb3; --mango:#f2c230;
   --rule:#161d1a; --rule-soft:#d0d3cc; --link-rule:#b3c4ea; --under:#c4c8c2;
-  --serif:'Instrument Serif',Georgia,serif; --sans:'Instrument Sans',system-ui,sans-serif; --display:'Bricolage Grotesque',var(--sans);
+  --serif:'Source Serif 4','Source Serif Pro',Georgia,serif; --sans:'Instrument Sans',system-ui,sans-serif; --display:'Bricolage Grotesque',var(--sans);
 }
 *{box-sizing:border-box}
 html{-webkit-text-size-adjust:100%}
