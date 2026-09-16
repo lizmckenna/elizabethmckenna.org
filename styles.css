@@ -68,8 +68,11 @@ img{display:block}
 .note{margin-top:26px;font:400 16px/1.6 var(--sans);color:var(--mute)}
 .note a{color:var(--ink);border-bottom-color:var(--under)}
 
-/* solid variant of the wall (used on books.html) */
+/* solid variant of the wall (kept for opt-in solid columns) */
 .wall.wall-solid,.wall-m.wall-solid{background:var(--paper) !important;background-image:none !important;border-right:1px solid var(--rule-soft)}
+
+/* muted tile wall on sub-pages: keep the pattern, drop the saturation */
+body.subpage .wall,body.subpage .wall-m{filter:saturate(.4)}
 
 /* sub-page hero: page title + lede */
 .page-hero{padding-top:72px;padding-bottom:32px;border-bottom:1px solid var(--rule-soft)}
