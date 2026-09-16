@@ -1,0 +1,85 @@
+/* Elizabeth McKenna — site styles. Tokens first, then layout, then the phone breakpoint. */
+:root{
+  --ink:#1a1918; --mute:#4a4845; --rule:#1a1918; --rule-soft:#d9d7d3; --link-rule:#b8b5af;
+  --terracotta:#c9432b; --indigo:#0a204e; --gold:#e0a92e; --paper:#fff;
+  --serif:'Source Serif 4',Georgia,serif; --sans:'Work Sans',system-ui,sans-serif;
+  --measure:60ch;
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--serif);font-feature-settings:'onum','pnum';line-height:1.5}
+a{color:var(--ink);text-decoration:none;border-bottom:1px solid var(--link-rule)}
+a:hover{color:var(--terracotta);border-bottom-color:var(--terracotta)}
+a:focus-visible{outline:2px solid var(--terracotta);outline-offset:2px}
+p{margin:0;text-wrap:pretty}
+h1,h2{margin:0;font-weight:400}
+img{display:block}
+
+.wrap{max-width:1100px;margin:0 auto;padding:0 96px}
+
+/* head: thick-thin broadsheet rule */
+.head{display:flex;justify-content:space-between;align-items:baseline;padding:30px 0 14px;border-bottom:3px solid var(--rule);font-size:15px;line-height:1}
+.head::after{content:none}
+.head-rule{height:1px;background:var(--rule);margin-top:3px}
+.head nav{display:flex;gap:24px;font-size:15px}
+.head nav a{border-bottom-color:var(--link-rule)}
+.head nav a[aria-current="page"]{color:var(--terracotta);border-bottom-color:var(--terracotta)}
+
+/* two-column rows: 260px rail + text */
+.row{display:grid;grid-template-columns:260px minmax(0,1fr);gap:56px;align-items:start}
+.row.intro{padding-top:64px}
+.row.section{padding-top:96px}
+.row.section.last{padding-top:64px;padding-bottom:96px}
+.label{font-family:var(--sans);font-weight:500;font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:var(--mute);padding-top:6px}
+
+/* portrait + tiles */
+.portrait{width:260px}
+.portrait img{width:260px;height:260px;object-fit:cover;object-position:50% 30%;border-radius:50%}
+.tiles{display:block;width:100%;height:auto;aspect-ratio:3/1;margin-top:24px}
+
+/* identity + bio */
+h1{font-size:54px;line-height:1.04;letter-spacing:-.022em}
+.title{margin-top:16px;font-size:19px;line-height:1.45;color:var(--mute)}
+.bio{margin-top:36px;max-width:var(--measure);font-size:18px;line-height:1.62}
+.bio p+p{margin-top:18px}
+.bio em{font-style:italic}
+.bio a{border-bottom-color:var(--ink)}
+.contact{margin-top:30px;display:flex;flex-direction:column;gap:4px;font-size:16px;line-height:1.6;color:var(--mute)}
+
+/* books: year · jacket · citation */
+.books{display:flex;flex-direction:column}
+.book{display:grid;grid-template-columns:64px 56px minmax(0,1fr);gap:24px;padding:18px 0;border-top:1px solid var(--rule-soft);font-size:18px;line-height:1.5;align-items:start}
+.book:first-child{border-top-color:var(--rule)}
+.book:last-child{border-bottom:1px solid var(--rule-soft)}
+.book .year{color:var(--mute);font-feature-settings:'tnum'}
+.book .award{color:var(--terracotta)}
+.jacket{width:56px;height:84px;padding:6px;display:flex;flex-direction:column;justify-content:space-between;box-shadow:inset 0 0 0 1px rgba(0,0,0,.08);overflow:hidden}
+.jacket .t{font-style:italic;font-size:9px;line-height:1.12;letter-spacing:-.01em}
+.jacket .p{font-family:var(--sans);font-weight:500;font-size:7px;line-height:1.3;letter-spacing:.06em;text-transform:uppercase;opacity:.85}
+.jacket.indigo{background:var(--indigo);color:#f2ece0}
+.jacket.terracotta{background:var(--terracotta);color:#f2ece0}
+.jacket.gold{background:var(--gold);color:var(--ink)}
+.jacket img{width:100%;height:100%;object-fit:cover} /* drop a real cover in and delete the .t/.p text */
+
+/* papers: hanging indent bibliography */
+.papers{display:flex;flex-direction:column;gap:18px;font-size:18px;line-height:1.5}
+.papers li{list-style:none;padding-left:1.6em;text-indent:-1.6em}
+.papers ul{margin:0;padding:0;display:contents}
+.papers .note{margin-top:10px;font-size:16px;color:var(--mute)}
+
+/* phone */
+@media (max-width:640px){
+  .wrap{padding:0 24px}
+  .head{flex-direction:column;align-items:flex-start;gap:14px}
+  .head nav{flex-wrap:wrap;row-gap:10px}
+  .row{grid-template-columns:minmax(0,1fr);gap:28px}
+  .row.section{padding-top:56px}
+  .row.section.last{padding-top:40px;padding-bottom:64px}
+  .label{padding-top:0}
+  .portrait{width:172px;margin:0 auto}
+  .portrait img{width:172px;height:172px}
+  .identity{text-align:center}
+  h1{font-size:38px}
+  .book{grid-template-columns:56px minmax(0,1fr);gap:16px}
+  .book .year{display:none}
+}
