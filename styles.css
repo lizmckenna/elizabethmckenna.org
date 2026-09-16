@@ -37,7 +37,7 @@ img{display:block}
 
 /* bio + rail */
 .two{display:grid;grid-template-columns:minmax(0,1fr) 300px;gap:72px;padding-top:60px;align-items:start}
-.bio{font-size:21.5px;line-height:1.5}
+.bio{font-size:19px;line-height:1.55}
 .bio p+p{margin-top:18px}
 .rail{font:400 16px/1.6 var(--sans);color:var(--mute);display:flex;flex-direction:column;gap:22px;padding-top:8px}
 .rail a{color:var(--ink);border-bottom-color:var(--under)}
@@ -49,7 +49,7 @@ img{display:block}
 .section-label{padding-top:80px}
 .section-label.papers{padding-top:64px}
 .books{margin-top:16px;display:flex;flex-direction:column}
-.book{display:grid;grid-template-columns:64px 56px minmax(0,1fr);gap:24px;padding:18px 0;border-top:1px solid var(--rule-soft);font-size:21.5px;line-height:1.42;align-items:start}
+.book{display:grid;grid-template-columns:64px 56px minmax(0,1fr);gap:24px;padding:18px 0;border-top:1px solid var(--rule-soft);font-size:19px;line-height:1.45;align-items:start}
 .book:first-child{border-top-color:var(--rule)}
 .book:last-child{border-bottom:1px solid var(--rule-soft)}
 .book .year{color:var(--mute);font:400 16px/1.6 var(--sans)}
@@ -58,7 +58,7 @@ img{display:block}
 .jacket img{width:56px;height:84px;object-fit:cover}
 
 /* papers */
-.papers-list{margin:16px 0 0;padding:18px 0 0;border-top:1px solid var(--rule);list-style:none;display:flex;flex-direction:column;gap:18px;font-size:21.5px;line-height:1.42}
+.papers-list{margin:16px 0 0;padding:18px 0 0;border-top:1px solid var(--rule);list-style:none;display:flex;flex-direction:column;gap:18px;font-size:19px;line-height:1.5}
 .papers-list li{padding-left:1.6em;text-indent:-1.6em}
 .note{margin-top:26px;font:400 16px/1.6 var(--sans);color:var(--mute)}
 .note a{color:var(--ink);border-bottom-color:var(--under)}
@@ -69,11 +69,11 @@ img{display:block}
 /* sub-page hero: page title + lede */
 .page-hero{padding-top:72px;padding-bottom:32px;border-bottom:1px solid var(--rule-soft)}
 .page-h1{font:700 64px/.98 var(--display);letter-spacing:-.03em}
-.lede{margin-top:20px;font:400 22px/1.5 var(--serif);color:var(--ink);max-width:70ch}
+.lede{margin-top:20px;font:400 20px/1.55 var(--serif);color:var(--ink);max-width:70ch}
 
 /* press list: year-left grid, newest first */
 .press-list{display:flex;flex-direction:column;margin-top:16px}
-.press-item{display:grid;grid-template-columns:96px minmax(0,1fr);gap:32px;padding:16px 0;border-top:1px solid var(--rule-soft);font-size:19px;line-height:1.5;align-items:baseline}
+.press-item{display:grid;grid-template-columns:96px minmax(0,1fr);gap:32px;padding:16px 0;border-top:1px solid var(--rule-soft);font-size:17.5px;line-height:1.55;align-items:baseline}
 .press-item:first-child{border-top:1px solid var(--rule)}
 .press-item:last-child{border-bottom:1px solid var(--rule-soft)}
 .press-item .year{font:500 13px/1 var(--sans);letter-spacing:.06em;color:var(--mute);text-transform:uppercase}
@@ -85,7 +85,7 @@ img{display:block}
 .book-row-large img{width:100%;max-width:220px;box-shadow:0 2px 24px rgba(0,0,0,.08)}
 .book-title{font:400 30px/1.15 var(--serif);margin-bottom:8px}
 .book-meta{font:400 15px/1.5 var(--sans);color:var(--mute);margin-bottom:14px}
-.book-body{font:400 18px/1.55 var(--serif);margin-bottom:12px}
+.book-body{font:400 17px/1.6 var(--serif);margin-bottom:12px}
 .book-body .award{color:var(--papaya)}
 @media (max-width:640px){.book-row-large{grid-template-columns:1fr;gap:16px;padding:32px 0}.book-row-large img{max-width:160px}}
 
@@ -101,7 +101,7 @@ img{display:block}
   .hero img{order:-1;width:132px;height:132px}
   .hero h1{font-size:46px;line-height:.94}
   .two{grid-template-columns:minmax(0,1fr);gap:40px;padding-top:30px}
-  .bio,.book,.papers-list{font-size:19.5px}
+  .bio,.book,.papers-list{font-size:17px}
   .book{grid-template-columns:56px minmax(0,1fr);gap:16px}
   .book .year{display:none}
 }
