@@ -8,9 +8,12 @@
 *{box-sizing:border-box}
 html{-webkit-text-size-adjust:100%}
 body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--serif);font-feature-settings:'onum','pnum';line-height:1.5}
-a{color:var(--ink);text-decoration:none;border-bottom:1px solid var(--link-rule)}
-a:hover{color:var(--terracotta);border-bottom-color:var(--terracotta)}
+a{color:var(--terracotta);text-decoration:none;border-bottom:1px solid var(--terracotta)}
+a:hover{color:var(--indigo);border-bottom-color:var(--indigo)}
 a:focus-visible{outline:2px solid var(--terracotta);outline-offset:2px}
+.head nav a,.head a{color:var(--ink);border-bottom-color:transparent}
+.head nav a:hover,.head a:hover{color:var(--terracotta);border-bottom-color:var(--terracotta)}
+.head nav a[aria-current="page"]{color:var(--terracotta);border-bottom-color:var(--terracotta)}
 p{margin:0;text-wrap:pretty}
 h1,h2{margin:0;font-weight:400}
 img{display:block}
@@ -71,6 +74,15 @@ h1{font-size:54px;line-height:1.04;letter-spacing:-.022em}
 .page-hero{padding:64px 0 40px;border-bottom:1px solid var(--rule-soft)}
 .page-hero h1{font-size:64px;line-height:1.02;letter-spacing:-.022em}
 .page-hero .lede{margin-top:24px;font-size:20px;line-height:1.55;color:var(--ink);max-width:70ch}
+
+/* press list: year on left, citation on right, newest first */
+.press-list{display:flex;flex-direction:column}
+.press-item{display:grid;grid-template-columns:96px minmax(0,1fr);gap:32px;padding:16px 0;border-top:1px solid var(--rule-soft);font-size:18px;line-height:1.5;align-items:baseline}
+.press-item:first-child{border-top:1px solid var(--ink)}
+.press-item:last-child{border-bottom:1px solid var(--rule-soft)}
+.press-item .year{font-family:var(--sans);font-weight:500;font-size:14px;letter-spacing:.06em;color:var(--mute);text-transform:uppercase;font-feature-settings:'tnum'}
+.press-item .cite{max-width:70ch}
+@media (max-width:640px){.press-item{grid-template-columns:64px minmax(0,1fr);gap:16px}.press-item .year{font-size:12px}}
 
 /* sub-page section: single column, big heading */
 .subsection{padding:64px 0;border-bottom:1px solid var(--rule-soft)}
