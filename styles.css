@@ -71,9 +71,15 @@ img{display:block}
 /* solid variant of the wall (kept for opt-in solid columns) */
 .wall.wall-solid,.wall-m.wall-solid{background:var(--paper) !important;background-image:none !important;border-right:1px solid var(--rule-soft)}
 
-/* sub-pages: same tile shapes, single warm-gray tone — quieter than the vibrant landing */
-body.subpage .wall{background-image:url(assets/wall-quiet.svg)}
-body.subpage .wall-m{background-image:url(assets/wall-mobile-quiet.svg)}
+/* sub-pages: same tile shapes, one muted accent color per section */
+body.page-books .wall{background-image:url(assets/wall-books.svg)}
+body.page-books .wall-m{background-image:url(assets/wall-books-m.svg)}
+body.page-research .wall{background-image:url(assets/wall-research.svg)}
+body.page-research .wall-m{background-image:url(assets/wall-research-m.svg)}
+body.page-teaching .wall{background-image:url(assets/wall-teaching.svg)}
+body.page-teaching .wall-m{background-image:url(assets/wall-teaching-m.svg)}
+body.page-press .wall{background-image:url(assets/wall-press.svg)}
+body.page-press .wall-m{background-image:url(assets/wall-press-m.svg)}
 
 /* sub-page hero: page title + lede */
 .page-hero{padding-top:72px;padding-bottom:32px;border-bottom:1px solid var(--rule-soft)}
