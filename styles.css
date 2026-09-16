@@ -9,8 +9,8 @@
 html{-webkit-text-size-adjust:100%}
 body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--serif);line-height:1.5}
 a{color:var(--teal);text-decoration:none;border-bottom:1px solid var(--link-rule);transition:background .18s ease,color .18s ease}
-a:hover{background:var(--mango);color:var(--ink);border-bottom-color:var(--mango)}
-a:focus-visible{outline:2px solid var(--mango);outline-offset:2px}
+a:hover{background:var(--papaya);color:var(--paper);border-bottom-color:var(--papaya)}
+a:focus-visible{outline:2px solid var(--papaya);outline-offset:2px}
 p{margin:0;text-wrap:pretty}
 h1,h2,h3{margin:0}
 img{display:block}
