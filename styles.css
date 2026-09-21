@@ -17,7 +17,7 @@ img{display:block}
 
 /* shell: sticky tile wall + main column */
 .shell{display:grid;grid-template-columns:96px minmax(0,1fr);align-items:stretch}
-.wall{position:sticky;top:0;align-self:start;height:100vh;height:100dvh;width:96px;overflow:hidden;background:var(--paper) url(assets/wall.svg?v=31) top left / 100% auto no-repeat}
+.wall{position:sticky;top:0;align-self:start;height:100vh;height:100dvh;width:96px;overflow:hidden;background:var(--teal)}
 .wall-m{display:none}
 .main{padding:26px 88px 96px 72px;min-width:0}
 
@@ -71,15 +71,11 @@ img{display:block}
 /* solid variant of the wall (kept for opt-in solid columns) */
 .wall.wall-solid,.wall-m.wall-solid{background:var(--paper) !important;background-image:none !important;border-right:1px solid var(--rule-soft)}
 
-/* sub-pages: same tile shapes, one muted accent color per section */
-body.page-books .wall{background-image:url(assets/wall-books.svg?v=30)}
-body.page-books .wall-m{background-image:url(assets/wall-books-m.svg?v=30)}
-body.page-research .wall{background-image:url(assets/wall-research.svg?v=30)}
-body.page-research .wall-m{background-image:url(assets/wall-research-m.svg?v=30)}
-body.page-teaching .wall{background-image:url(assets/wall-teaching.svg?v=30)}
-body.page-teaching .wall-m{background-image:url(assets/wall-teaching-m.svg?v=30)}
-body.page-press .wall{background-image:url(assets/wall-press.svg?v=30)}
-body.page-press .wall-m{background-image:url(assets/wall-press-m.svg?v=30)}
+/* per-page solid color strip (academic mode: no tile pattern) */
+body.page-books .wall,body.page-books .wall-m{background:var(--cobalt);background-image:none}
+body.page-research .wall,body.page-research .wall-m{background:var(--leaf);background-image:none}
+body.page-teaching .wall,body.page-teaching .wall-m{background:var(--papaya);background-image:none}
+body.page-press .wall,body.page-press .wall-m{background:var(--mango);background-image:none}
 
 /* sub-page hero: page title + lede */
 .page-hero{padding-top:72px;padding-bottom:32px;border-bottom:1px solid var(--rule-soft)}
@@ -108,7 +104,7 @@ body.page-press .wall-m{background-image:url(assets/wall-press-m.svg?v=30)}
 @media (max-width:640px){
   .shell{grid-template-columns:26px minmax(0,1fr)}
   .wall{display:none}
-  .wall-m{display:block;position:sticky;top:0;align-self:start;height:100vh;height:100dvh;width:26px;overflow:hidden;background:var(--paper) url(assets/wall-mobile.svg?v=31) top left / 100% auto no-repeat}
+  .wall-m{display:block;position:sticky;top:0;align-self:start;height:100vh;height:100dvh;width:26px;overflow:hidden;background:var(--teal)}
   .main{padding:22px 22px 56px 20px}
   .head{flex-direction:row;align-items:center;justify-content:space-between;gap:0}
   .nav-toggle{display:inline-flex}
