@@ -44,6 +44,8 @@ img{display:block}
 .two{display:grid;grid-template-columns:minmax(0,1fr) 300px;gap:72px;padding-top:60px;align-items:start}
 .bio{font-size:19px;line-height:1.55}
 .bio p+p{margin-top:18px}
+.bio .latest{font-size:16px;line-height:1.5;padding:10px 14px;background:#fef5ea;border-left:3px solid var(--papaya);margin-bottom:22px}
+.bio .latest-label{display:inline-block;font:600 11px/1 var(--sans);letter-spacing:.12em;text-transform:uppercase;color:var(--papaya);margin-right:8px;vertical-align:1px}
 .rail{font:400 16px/1.6 var(--sans);color:var(--mute);display:flex;flex-direction:column;gap:22px;padding-top:8px}
 .rail a{color:var(--ink);border-bottom-color:var(--under)}
 .rail a:hover{color:var(--ink);border-bottom-color:transparent}
